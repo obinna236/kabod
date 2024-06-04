@@ -1,0 +1,163 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    padding: 2rem;
+    background-color:rgb(81, 79, 79);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 222;
+}
+
+.logo{
+    font-size: 27px;
+    text-align: center;
+    color: white;
+    cursor: default;
+    align-items: center;
+}
+
+.logo img{
+    width: 60px;
+    clip-path: circle();
+}
+
+.nav ul{
+    display: flex;
+    gap: 2.5rem;
+}
+
+.nav ul li a{
+    color: white;
+    padding: 0.5rem;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, Arial, 'Franklin Gothic Medium';
+}
+
+.nav ul li:hover a{
+    background-color: orange;
+    color: #333;
+    border-radius: 0.5rem;
+    transition: 0.8s all ease;
+}
+
+.icon{
+    margin-right: 2rem;
+    
+}
+
+.icon i{
+    margin-right: 2rem;
+    font-size: 22px;
+    color: white;
+}
+
+.icon i:hover{
+    animation: rotate 0.5s linear 1;
+    color: orange;
+
+}
+
+.icon button{
+    padding: 0.5rem;
+    width: 6rem;
+    background-color: orange;
+    border: none;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    font-size: 18px;
+}
+
+.icon button:hover{
+    background-color: yellowgreen;
+}
+
+
+@keyframes rotate {
+    from{
+        transform: rotate(0);
+    }
+
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+.menu{
+    display: none;
+}
+
+.media-nav{
+    display: none;
+}
+
+/* our header styling ends */
+
+.background{
+    width: 100%;
+    height: 46rem;
+    background: url(/image/people-hands-together.jpg);
+}
+
+.vail{
+    width: 100%;
+    height: 46rem;
+    position: absolute;
+    background: rgba(247, 246, 246, 0.7);
+}
+
+.vail h3{
+    padding-top: 17rem;
+    padding-left: 2rem;
+    color: black;
+    font-size: 22px;
+}
+
+.vail h1{
+    padding-left: 2rem;
+    padding-top: 1rem;
+    font-size: 50px;
+}
+
+.vail p{
+    padding-left: 2rem;
+    padding-top: 1rem;
+    font-size: 20px;
+}
+
+.vail button{
+    padding: 0.5rem;
+    width: 8rem;
+    background-color: rgb(81, 79, 79);
+    border: none;
+    color: white;
+    font-size: 17px;
+    position: relative;
+    left: 2rem;
+    top: -48rem;
+    cursor: pointer;
+}
+
+.vail button:hover{
+    background-color: orange;
+    color: #333;
+}
+.vail img{
+    position: relative;
+    top: -32.8rem;
+    left: 40rem;
+    width: 30%;
+    background-color: #ffffff99;
+    clip-path: circle();
+    overflow: hidden;
+    
+}
+
